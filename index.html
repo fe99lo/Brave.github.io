@@ -1,0 +1,183 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Jakana </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Felix Onkangi">
+    <meta name="description" content="portfolio website">
+    <meta name="keywords" content="Sharing, web navigation">
+    <link rel="relax icon" href="images/relax.png" type="image/image png">
+    <!--@bootstrapCss-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+    <link rel="PHP" href="index.php">
+    <script>  document.write(Date())  </script>
+    <a href="map.html">Check places </a>
+ <script>
+document.cookie = "key1 = value1;key2 = value2;expires = date";
+   </script>
+ 
+    <script>
+       function showRSS(str) {
+           if (str.length == 0) {
+
+               document.getElementById("output").innerHTML = "";
+
+               return;
+
+            }
+       
+            if (window.XMLHttpRequest) {
+
+               xmlhttp = new XMLHttpRequest();
+
+            }else {
+
+               xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
+
+            }
+
+            xmlhttp.onreadystatechange = function() {
+
+               if (xmlhttp.readyState == 4 && xmlhttp.status == 200) {
+
+                  document.getElementById("output").innerHTML = xmlhttp.responseText;
+
+               }
+
+            }
+      
+            xmlhttp.open("GET","rss.php?q="+str,true);
+
+            xmlhttp.send();
+
+         }
+
+      </script>
+   
+    <a href="indexDB.html">Log in </a>
+    <a href="signup.html">sign up <a>
+    <style> 
+     footer{
+        text-align:center;
+     }
+    </style>
+        
+     <script> sun.attr('r',20);
+     </script>  
+    
+     <img src="images/startup.png" alt="startup" 
+        style="width:204px;height:128px;"></img>
+        <nav class="navbar navbar-inverse">
+  <div class="container-fluid" >
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">Brave</a>
+    </div>
+         
+     </div>
+    
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#">Home </a></li>
+      <li><a href="about.html">About us </a></li>
+      <li><a href="video.html">videos </a></li>
+      <li><a href="register.php"> Work </a></li>
+      <li><a href="product.html">Products</a> </li>
+      <li><a href="file-upload.php">Files </a></li>
+    </ul>
+    
+  </div>
+  
+    <a href="/shopping-cart.html">Shop </a>
+</head>
+<body>
+
+<div class="alert alert-primary" role="alert">
+        Welcome to Brevity website 
+        <h1 onclick="this.innerHTML = 'Thanks!'">Click me!</h1>
+        
+     </div>
+    
+
+     <section class="container"
+        
+       <div class="half-width">
+        <h1> Welcome to <span class="purple-color">Cliff's</span> world </h1>
+  
+        <h4> Cliff's is providing best services in Digital marketing </h4>
+        <p>my customers are the core in the business.Iam a Google analytics expert.I give my customers quality services </p>
+       
+         <h3> Web analysis for sites </h3>
+         <p> I like it when my customers relax as i do the work </p>
+         
+         <a class="primary-btn" href="https://www.linkedin.com/in/Felix-Onkangi-76174b180/"> Hire Me </a>  
+         <a class="primary-btn" href="https://wa.me/+254758026436">contact me </a>   
+       </div>
+
+      <div class="half-width">
+       <img src="images/relax.png" alt="design work" style="width:204px;height:128px;"></img>
+      </div>
+    </section>
+    
+    <section class="container"> 
+      <div class="half-width">
+       <img src="images/meet.png" alt="" style="width:100px;height:78px;"></img>
+      </div>
+       <div class="half-width">
+      
+        <h2> BIG DREAM </h2>
+        <h4> Become a web developer </h4>
+        <p> To offer solutions to business owners.To make my clients relax as i do the great job of making your online presence profitable</p>
+        
+       <a class="primary-btn" href="">Top </a>
+        
+      </div>
+     </section>
+     <section class="container experience">
+       <h2> Experiences </h2>
+       <div class="experience-item">
+       <h3> Google analytics expert and Web developer </h3>
+       <p class="purple-color"> 2020 - Present | Pro Level Developer </p>
+       <p>Iam master of javascript </p>
+       
+       </div>   
+     </section>
+     
+       <p>Please Select an option to get RSS:</p>
+
+     <form>
+        <select onchange = "showRSS(this.value)">
+
+          <option value = "RSS">Select an RSS-feed:</option>
+
+          <option value = "cnn">CNN </option>
+
+          <option value = "bbc">BBC News </option>
+
+          <option value = "pc">PC World </option>
+
+         </select>
+
+      </form>
+   <script src="js/headtrackr.js">
+
+  //debbuging code for this program
+var debugging = true;
+var whichImage = "widget";
+
+if( debugging )
+   alert( "Calls swapImage() with argument: " + whichImage );
+   var swapStatus = swapImage( whichImage );
+
+if( debugging )
+   alert( "Exits swapImage() with swapStatus=" +swapStatus);
+
+
+
+</script>
+     
+</body>
+<footer> Felix Production ©2020 </footer>
+</html>
